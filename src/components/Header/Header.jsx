@@ -2,6 +2,7 @@ import React from 'react'
 import classes from './Header.module.css'
 import { MdLocationPin } from "react-icons/md";
 import { FaSearch } from "react-icons/fa";
+import LowerHeader from './LowerHeader';
 import { FaShoppingCart } from "react-icons/fa";
 function Header() {
   return (
@@ -56,6 +57,7 @@ function Header() {
             </div>
         </div>
     </section>
+    <LowerHeader/>
     </>
   )
 }
