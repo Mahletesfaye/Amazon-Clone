@@ -1,6 +1,6 @@
 import React from 'react'
 import { IoMdMenu } from "react-icons/io";
-
+import classes from "./Header.module.css"
 
 function LowerHeader() {
   return (
@@ -10,8 +10,8 @@ function LowerHeader() {
                 <IoMdMenu />
                 <p>All</p>
             </li>
-            <li>Todays's Deals</li>
-            <li>Costomer Service</li>
+            <li>Today's Deals</li>
+            <li>Customer Service</li>
             <li>Register</li>
             <li>Gift Cards</li>
             <li>Sell</li>
