@@ -1,19 +1,21 @@
 import React from 'react'
-
-function CarouselEffect() {
+import { Carousel } from '@camfolio/react-responsive-carousel'
+import {img} from './img/data'
+function Carousel() {
   return (
     <div>
         <Carousel
-        autoPlay={true}
-        infiniteLoop={true}
-        showIndicators={false}
-        showThumbs={true}
+                autoPlay={true}
+                infiniteLoop={true}
+                showIndicators={true}
+                showThumbs={true}
         >
-            
+    
 
         </Carousel>
-    </div>
-        )
-    }
 
-export default CarouselEffect
+    </div>
+  )
+}
+
+export default Carousel
