@@ -1,13 +1,16 @@
-import React from 'react'
-import Header from "./components/Header/Header";
-import Carousel from './components/Carousel/Carousel';
+import React from 'react';
+import Header from './components/Header/Header';
+import CarouselEffect from './components/Carousel/CarouselEffect';
+import Category from './components/Category/Category';
+
 function App() {
   return (
     <>
       <Header />
-      <carousel />
+      <CarouselEffect />
+      <Category />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
